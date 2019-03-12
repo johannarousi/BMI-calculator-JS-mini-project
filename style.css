@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Shadows Into Light", cursive, Arial, Helvetica, sans-serif;
+  line-height: 2em;
+}
+h1 {
+  font-size: 60px;
+}
+input {
+  font-size: 16px;
+  padding: 7px;
+  width: 200px;
+}
+form {
+  margin: 0 5%;
+}
+
+#input-fields {
+  width: 550px;
+  margin: auto;
+}
+#calculate {
+  width: 90px;
+  margin: 3% 20px 0 20px;
+  padding: 5px;
+  border: 2px solid #1a741e;
+  background-color: #5ac873;
+  border-radius: 17px;
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+#calculate:hover {
+  background-color: #1a741e;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#description {
+  margin-top: 3%;
+  text-align: center;
+  width: 50%;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#picture {
+  margin-top: 3%;
+  width: 50%;
+}
+#desc {
+  width: 380px;
+  background-color: #89d79d;
+  padding: 6% 0;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  margin: auto;
+  border: 6px solid #5ac873;
+  border-radius: 35px;
+}
+@media (max-width: 600px) {
+  #input-fields {
+    width: 400px;
+  }
+  form {
+    margin: 0 10px;
+  }
+  img {
+    width: 400px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
