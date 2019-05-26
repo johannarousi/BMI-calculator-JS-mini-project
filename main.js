@@ -38,7 +38,6 @@ function calculateBMI() {
 let titleOne = document.getElementById("h1");
 titleOne.style.color = "#89d79d";
 titleOne.style.textAlign = "center";
-// titleOne.style.fontSize = "60px";
 titleOne.style.marginTop = "5%";
 
 const titles = document.querySelectorAll("li");
